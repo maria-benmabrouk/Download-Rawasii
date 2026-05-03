@@ -1,0 +1,239 @@
+body {
+	background: linear-gradient(-45deg, #C9B29B, #C7D3D4, #9C6B3F);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 230vh;
+    font-family: Tajawal, sans-serif;
+    color: #4A2C24;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body::selection{
+    background-color: #9c6a3f61;
+}
+.image1{
+    width: 150px;
+    position: absolute;
+    z-index: 999999;
+    position:fixed;
+    top: 10px;
+    left: 10px;
+
+}
+.title1{
+    color: #4A2C24;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 100vh;
+}
+.p1{
+    font-size: 67px;
+    text-align: center;
+    margin: 0%;
+    letter-spacing: -4px;
+    word-spacing: 8px;
+}
+.p2 , .p3 , .p4 {
+    margin: 1vh;
+}
+.title1 a button{
+    color: #4A2C24;
+    font-weight: 700;
+}
+.title1 a{
+    margin-top: 2vh;
+}
+.button1 button{
+    padding: 3vh;
+    border-radius: 10px;
+    background-color: #c9b29b45;
+    cursor: pointer;
+    border: 1px solid #4A2C24;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.button1 button:hover{
+    transform: translateY(-7px);
+}
+.icon1{
+    width: 100px;
+    margin-top: 3vh;
+}
+.title2,.title3,.title4,.title5{
+     height: 100vh;
+}
+.title3,.title4{
+    margin-left: 50px;
+}
+.p5,.p6{
+    font-size: 67px;
+    letter-spacing: -4px;
+    word-spacing: 8px;
+    margin: 0%;
+}
+.button2 button{
+    padding: 3vh;
+    border-radius: 10px;
+    background-color: #c9b29b45;
+    cursor: pointer;
+    border: 1px solid #4A2C24;
+    transition: 0.3s;
+    color: #4A2C24;
+    font-weight: 700;
+    font-size: 18px;
+}
+.button2 button:hover{
+    transform: translateY(-7px);
+}
+.title2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+.title2 div .img4{
+    width: 700px;
+    border-radius: 30px;
+     border: 5px solid #C9B29B;
+    
+}
+.title2 div .img2,.title2 div .img3,.title2 div .img1{
+    width: 200px;
+    border-radius: 30px;
+    border: 5px solid #C9B29B;
+}
+.images1{
+    position: relative;
+    width: 600px;
+}
+.images1 img{
+    position: absolute;
+}
+.img1{
+   top: 0px;
+   left: 0px;
+}
+.img2{
+  top: 40px;
+  left: 180px;
+  z-index: 2;
+}
+.img3{
+    top: 0px;
+    left: 360px;
+}
+.title3{
+   display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.title4{
+    display: flex;
+    flex-direction: row;
+    
+}
+.pic1{
+    position: relative;
+    width: 800px;
+}
+.text1{
+    width: 500px;
+}
+.div1{
+    position: absolute;
+    width: 820px;
+    border-radius: 30px;
+    height: 540px;
+    background-color: #9C6B3F;
+   
+}
+.div11{
+    position: absolute;
+    z-index: 2;
+    width: 700px;
+    top: 100px;
+    left: 100px;
+    border-radius: 30px;
+}
+.pic2{
+    position: relative;
+    width: 500px;
+}
+.text2{
+    width: 500px;
+}
+.div2{
+    position: absolute;
+    width: 350px;
+    border-radius: 30px;
+    height: 650px;
+    background-color: #9C6B3F;
+   
+    
+}
+.div22{
+    position: absolute;
+    z-index: 2;
+    width: 260px;
+    top: 80px;
+    left: 73px;
+    border-radius: 30px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 525;
+}
+
+.end{   
+    border-radius: 50px  50px 0 0;  
+    background-color: #9C6B3F;
+    bottom: 0;
+}
+
+.icon2{
+     width: 50px;
+     margin: 20px;
+}
+.end p{
+    font-size: 120px;
+    justify-self: center;
+    color: #C9B29B;
+}
+.githubRepo{
+    color: #C9B29B;
+    text-decoration: none;
+}
+.about{
+    width: 100%;
+    justify-self: center;
+}
+.aboutRawasii{
+    padding: 0 50px ;
+    background-color: #9c6a3f46;
+    border-radius: 30px;
+    width: 70%;
+    cursor: pointer;
+}
+.aboutRawasii:hover{
+    background-color: #9c6a3f61;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    margin-left: 100px;
+    
+}

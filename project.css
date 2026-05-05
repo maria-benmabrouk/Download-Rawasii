@@ -81,7 +81,7 @@ body::selection{
     width: 100px;
     margin-top: 3vh;
 }
-.title2,.title3,.title4,.title5{
+.title2,.title3,.title4,.title5,.title6{
      min-height: 100vh;
 }
 .title3,.title4{
@@ -412,4 +412,4 @@ body::selection{
      .title2{
         min-height: 120vh;
    }
-}
+}  

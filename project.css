@@ -410,6 +410,6 @@ body::selection{
 }
 @media (max-width: 450px){
      .title2{
-        min-height: 100vh;
+        min-height: 120vh;
    }
 }

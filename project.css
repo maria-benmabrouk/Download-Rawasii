@@ -5,7 +5,10 @@ body {
 	height: 220vh;
     font-family: Tajawal, sans-serif;
     color: #4A2C24;
+    overflow-x: hidden;
+
 }
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -17,6 +20,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
 body::selection{
     background-color: #9c6a3f61;
 }
@@ -372,14 +376,14 @@ body::selection{
 }
 @media (max-width: 550px) {
     .div1{
-    width: 100vw;
+    width: 90vw;
     margin: 0;
-    height: 37vh;
+    height: 33vh;
     }
    .div11{
-    width: 75vw;
-    top: 10vh;
-    left: 18vw; 
+    width: 73vw;
+    top: 8vh;
+    left: 13vw; 
    }
    .pic1{
      justify-content: center;
@@ -392,16 +396,15 @@ body::selection{
          min-height: 170vh;
    }
    .div2{
-    width:70vw ;
-    height: 65vh;
-    
-}
-.div22{
-    width: 50vw;
+    width:65vw ;
+    height: 60vh;
+   }
+   .div22{
+    width: 44vw;
     top: 9vh;
     left: 17vw;
-}
-.title4{
+   }
+   .title4{
          min-height: 200vh;
    }
    body{
@@ -412,4 +415,5 @@ body::selection{
      .title2{
         min-height: 120vh;
    }
-}  
+} 
+ 

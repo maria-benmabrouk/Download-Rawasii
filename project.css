@@ -274,6 +274,9 @@ body::selection{
    body{
     height: 290vh;
    }
+   .title6{
+        min-height: 300vh;
+    }
 }
 @media (max-width: 800px){
     .title2 div .img4{
@@ -329,6 +332,9 @@ body::selection{
     } 
     .title5{
         min-height: 20vh;
+    }
+    .title6{
+        min-height: 200vh;
     }
    .title4{
         min-height: 230vh;

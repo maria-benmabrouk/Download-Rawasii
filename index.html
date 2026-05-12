@@ -40,9 +40,10 @@
             <p class="p5" data-aos="fade-right" data-aos-duration="500">Download</p>
             <p class="p5" data-aos="fade-left" data-aos-duration="500">for desktop</p>
             <p class="description">Experience Rawassi on a bigger screen. Discover Algerian architectural heritage with a smooth and immersive desktop experience.</p>
-            <a class="button2" href="#" download=""><button><i class="fa-brands fa-windows"></i> Windows</button></a>
-            <a class="button2" href="#" download=""><button><i class="fa-brands fa-linux"></i> Linux</button></a>
-            <a class="button2" href="#" download=""><button><i class="fa-brands fa-apple"></i> macOS</button></a> 
+            <a class="button2"><button onclick="showMessage('Windows')"><i class="fa-brands fa-windows"></i> Windows</button></a>
+            <a class="button2"><button onclick="showMessage('Linux')"><i class="fa-brands fa-linux"></i> Linux</button></a>
+            <a class="button2"><button onclick="showMessage('macOS')"><i class="fa-brands fa-apple"></i> macOS</button></a> 
+        <p id="msg"></p>
         </div>
         <div class="pic1">
             <div class="div1"></div>
@@ -59,9 +60,10 @@
             <p class="p6" data-aos="fade-right" data-aos-duration="500">Download</p>
             <p class="p6" data-aos="fade-left" data-aos-duration="500">for mobile</p>
             <p class="description">Experience Rawassi on the go. Discover Algerian architectural heritage anytime, anywhere.</p>
-            <a class="button2" href="#" download=""><button><i class="fa-brands fa-apple"></i> App Store</button></a>
-            <a class="button2" href="#" download=""><button><i class="fa-brands fa-google-play"></i> Google Play</button></a>
-        
+            
+            <a class="button2" href="app_arm64_v8a_release_1.apk" download=""><button><i class="fa-brands fa-google-play"></i> Google Play</button></a>
+            <a class="button2"><button onclick="showMessage('iOS')"><i class="fa-brands fa-apple"></i> App Store</button></a>
+           <p id="msg"></p>
         </div>
         
     </div>
@@ -71,7 +73,7 @@
     <div class="end">
              <img class="icon2" src="logo_icon_light_transparent.png" alt="logo icon">  
              <div class="content">
-                <a class="githubRepo" href="#">Source Code</a>
+                <a class="githubRepo" href="code.html">Source Code</a>
                 <a class="githubRepo" href="page2.html">About RAWASII</a>
                 <a class="githubRepo" href="#">Download page</a>
                 <a class="githubRepo" href="NoticeInstallation.pdf" target="_blank">Installation and Access Manual</a>
@@ -83,5 +85,8 @@
   <script>
     AOS.init();
   </script>
+
+  <script src="project.js"></script>
+
 </body>
 </html>

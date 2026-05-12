@@ -46,6 +46,23 @@ body::selection{
     right: 10px;
     color: #4A2C24;
 }
+
+.codeDiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20vh;
+}
+.codeLink button{
+     padding: 2vh;
+    border-radius: 10px;
+    background-color: #c9b29b45;
+    cursor: pointer;
+    border: 1px solid #4A2C24;
+    transition: 0.3s;
+    font-size: 5vw;
+    color: #4A2C24;
+}
 .title1{
     color: #4A2C24;
     justify-content: center;
@@ -99,7 +116,7 @@ body::selection{
     width: 100px;
     margin-top: 3vh;
 }
-.title2,.title3,.title4,.title5,.title6{
+.title2,.title3,.title4,.title5,.title6,.codeDiv{
      min-height: 100vh;
 }
 .title3,.title4{

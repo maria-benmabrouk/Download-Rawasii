@@ -32,6 +32,20 @@ body::selection{
     top: 10px;
     left: 10px;  
 }
+.openOnBr button{
+    padding: 2vh;
+    border-radius: 10px;
+    background-color: #c9b29b45;
+    cursor: pointer;
+    border: 1px solid #4A2C24;
+    transition: 0.3s;
+    font-size: 15px;
+     z-index: 999999;
+    position:fixed;
+    top: 10px;
+    right: 10px;
+    color: #4A2C24;
+}
 .title1{
     color: #4A2C24;
     justify-content: center;

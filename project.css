@@ -467,3 +467,6 @@ body::selection{
 .img{
     max-width: 100%;
 }
+.images1{
+    min-height: 60vh;
+}

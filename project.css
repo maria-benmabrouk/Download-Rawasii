@@ -7,6 +7,7 @@ body {
     color: #4A2C24;
     overflow-x: hidden;
     scrollbar-gutter: stable;
+    margin: 0;
 }
 
 @keyframes gradient {

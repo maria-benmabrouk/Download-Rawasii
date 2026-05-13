@@ -7,7 +7,6 @@ body {
     color: #4A2C24;
     overflow-x: hidden;
     scrollbar-gutter: stable;
-    
 }
 
 @keyframes gradient {
@@ -21,6 +20,9 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+
+
 body::selection{
     background-color: #9c6a3f61;
 }
@@ -163,12 +165,7 @@ body::selection{
 .images1{
      position: relative;
      width: 33vw;
-     width: 100%;
      justify-content:center ;
-}
-.title2{
-    overflow-x: hidden;
-    width: 100%;
 }
 .images1 img{
    position: absolute;
@@ -321,7 +318,9 @@ body::selection{
     .title2 div .img4{
        width: 80vw;
     }
-    
+    .images1{
+         padding-right: 32vw;
+    }
     .title2 div .img2,.title2 div .img3,.title2 div .img1{
        width: 30vw;
     }
@@ -385,7 +384,9 @@ body::selection{
     .title2 div .img4{
        width: 80vw;
     }
-    
+    .images1{
+         padding-right: 32vw;
+    }
     .title2 div .img2,.title2 div .img3,.title2 div .img1{
        width: 30vw;
        border-radius: 30px;
@@ -457,16 +458,3 @@ body::selection{
         min-height: 120vh;
    }
 } 
-
-*{
-    box-sizing: border-box;
-}
-.title2{
-    overflow:hidden;
-}
-.img{
-    max-width: 100%;
-}
-.images1{
-    min-height: 60vh;
-}

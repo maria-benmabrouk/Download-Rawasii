@@ -219,6 +219,9 @@ body::selection{
     left: 6vw;
     border-radius: 30px;
 }
+.div1,.div11{
+    max-width: 100%;
+}
 .pic2{
     position: relative;
     width: 500px;

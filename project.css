@@ -7,7 +7,7 @@ body {
     color: #4A2C24;
     overflow-x: hidden;
     scrollbar-gutter: stable;
-    margin: 0;
+    
 }
 
 @keyframes gradient {
@@ -21,9 +21,6 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
-
-
 body::selection{
     background-color: #9c6a3f61;
 }

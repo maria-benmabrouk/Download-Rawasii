@@ -21,6 +21,8 @@ body {
 	}
 }
 
+
+
 body::selection{
     background-color: #9c6a3f61;
 }
@@ -456,3 +458,13 @@ body::selection{
         min-height: 120vh;
    }
 } 
+
+*{
+    box-sizing: border-box;
+}
+.title2{
+    overflow:hidden;
+}
+.img{
+    max-width: 100%;
+}

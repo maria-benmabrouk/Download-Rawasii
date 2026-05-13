@@ -165,7 +165,12 @@ body::selection{
 .images1{
      position: relative;
      width: 33vw;
+     width: 100%;
      justify-content:center ;
+}
+.title2{
+    overflow-x: hidden;
+    width: 100%;
 }
 .images1 img{
    position: absolute;

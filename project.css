@@ -288,7 +288,7 @@ body::selection{
 }
 @media (max-width: 1000px) {
    .text2{
-    width: 100vw;
+    width: 100%;
 } 
 .div2{
     width:50vw ;
@@ -398,7 +398,7 @@ body::selection{
        margin-left: 40vw;
    }
    .text1,.text2{
-    width: 100vw;
+    width: 100%;
    }
    .title3,.title4{
       margin-left: 0;
@@ -408,7 +408,7 @@ body::selection{
    }
    .pic2{
     justify-content: center;
-     width:100vw; 
+     width:100%; 
    }
 }
 @media (max-width: 550px) {
@@ -424,7 +424,7 @@ body::selection{
    }
    .pic1{
      justify-content: center;
-     width:100vw;  
+     width:100%;  
    }
    .title3{
         min-height: 100vh;
